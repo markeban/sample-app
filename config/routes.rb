@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 
-  post "/purple_hippo", to: 'pages#about'
+  get "/about", to: 'pages#about'
   get "/contact_us", to: 'pages#contact_us'
 
   # The priority is based upon order of creation: first created -> highest priority.
