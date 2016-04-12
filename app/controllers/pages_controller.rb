@@ -5,8 +5,8 @@ class PagesController < ApplicationController
   end
 
   def contact_us
-    names = ["Mark", "Sami", "Natasha"]
-    @one_name = names.sample
+    @names = ["Mark", "Sami", "Natasha"]
+    # @one_name = names.sample
   end
 
 
